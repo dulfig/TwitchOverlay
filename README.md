@@ -1,5 +1,6 @@
 # TwitchOverlay
 An animated Twitch Overlay using Javascript
+
 DESCRIPTION
 -------------------------------------------------------------------------------------------------------------------------------------------
 Through using JetBrains WebStorm the two canvas files are used to drive the animation behind the overlay
