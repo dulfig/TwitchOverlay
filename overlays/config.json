@@ -1,0 +1,2789 @@
+{
+  "schemaVersion": 1,
+  "nodeType": "RootNode",
+  "scenes": {
+    "schemaVersion": 2,
+    "nodeType": "ScenesNode",
+    "items": [
+      {
+        "name": "Stream Starting",
+        "sceneId": "scene_d70f1735-1a1e-4836-aa4a-4e40e18104d3",
+        "slots": {
+          "schemaVersion": 1,
+          "nodeType": "SlotsNode",
+          "items": [
+            {
+              "id": "90f21712-2ab3-4ede-a8ea-80802c29a73f",
+              "sceneNodeType": "item",
+              "name": "---- Scene Background",
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "SceneSourceNode",
+                "sceneId": "scene_fab07e4a-bd8f-467f-973e-63fbc5c9e43e"
+              }
+            },
+            {
+              "id": "a40c997e-6a88-48a4-95cb-953baf2bb3ba",
+              "sceneNodeType": "item",
+              "name": "Social Bar",
+              "x": 0.1263007563647128,
+              "y": 0.5597481481481481,
+              "scaleX": 0.00033183333333333334,
+              "scaleY": 0.0005899259259259259,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "1.png"
+              }
+            },
+            {
+              "id": "09050175-2394-486a-bc70-8a4516b1b48a",
+              "sceneNodeType": "item",
+              "name": "Icon - Twitter",
+              "x": 0.15358847690941385,
+              "y": 0.5904,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "2.png"
+              }
+            },
+            {
+              "id": "ff108e24-e487-42c2-b7e2-54118f68fbf7",
+              "sceneNodeType": "item",
+              "name": "@TWITTERHANDLE",
+              "x": 0.18952597690941386,
+              "y": 0.6048,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "TextNode",
+                "settings": {
+                  "align": "left",
+                  "bk_color": 0,
+                  "bk_opacity": 0,
+                  "chatlog_lines": 6,
+                  "color": 16777215,
+                  "custom_font": "Orbitron-Bold.ttf",
+                  "extents_cx": 100,
+                  "extents_cy": 100,
+                  "extents_wrap": true,
+                  "font": {
+                    "face": "Orbitron",
+                    "flags": 1,
+                    "size": 24
+                  },
+                  "gradient_color": 16777215,
+                  "gradient_dir": 90,
+                  "gradient_opacity": 100,
+                  "opacity": 100,
+                  "outline_color": 16777215,
+                  "outline_opacity": 100,
+                  "outline_size": 2,
+                  "text": "@TWITTERHANDLE",
+                  "valign": "top",
+                  "file": ""
+                }
+              }
+            },
+            {
+              "id": "fdc4ce5d-2c27-4c57-9119-d2aafeda930d",
+              "sceneNodeType": "folder",
+              "name": "Social - Twitter",
+              "childrenIds": [
+                "ff108e24-e487-42c2-b7e2-54118f68fbf7",
+                "09050175-2394-486a-bc70-8a4516b1b48a",
+                "a40c997e-6a88-48a4-95cb-953baf2bb3ba"
+              ]
+            },
+            {
+              "id": "c946a5f5-8203-4711-acae-d0d712617d8f",
+              "sceneNodeType": "item",
+              "name": "Social Bar",
+              "x": 0.37237825636471283,
+              "y": 0.5599999999999999,
+              "scaleX": 0.00033183333333333334,
+              "scaleY": 0.0005899259259259259,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "3.png"
+              }
+            },
+            {
+              "id": "1855bc35-dd1a-406c-aded-1b34b92d9fa2",
+              "sceneNodeType": "item",
+              "name": "Icon - Youtube",
+              "x": 0.39681764357608057,
+              "y": 0.5903999999999999,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "4.png"
+              }
+            },
+            {
+              "id": "392591c9-ed39-4bd3-883c-c83a865df2b1",
+              "sceneNodeType": "item",
+              "name": "YOUTUBEURL",
+              "x": 0.43379681024274724,
+              "y": 0.6048,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "TextNode",
+                "settings": {
+                  "align": "left",
+                  "bk_color": 0,
+                  "bk_opacity": 0,
+                  "chatlog_lines": 6,
+                  "color": 16777215,
+                  "custom_font": "Orbitron-Bold.ttf",
+                  "extents_cx": 100,
+                  "extents_cy": 100,
+                  "extents_wrap": true,
+                  "font": {
+                    "face": "Orbitron",
+                    "flags": 1,
+                    "size": 24
+                  },
+                  "gradient_color": 16777215,
+                  "gradient_dir": 90,
+                  "gradient_opacity": 100,
+                  "opacity": 100,
+                  "outline_color": 16777215,
+                  "outline_opacity": 100,
+                  "outline_size": 2,
+                  "text": "/YOUTUBEURL",
+                  "valign": "top",
+                  "file": ""
+                }
+              }
+            },
+            {
+              "id": "d9a5894d-1edc-4e79-9f3c-d503f1c17a56",
+              "sceneNodeType": "folder",
+              "name": "Social - Youtube",
+              "childrenIds": [
+                "392591c9-ed39-4bd3-883c-c83a865df2b1",
+                "1855bc35-dd1a-406c-aded-1b34b92d9fa2",
+                "c946a5f5-8203-4711-acae-d0d712617d8f"
+              ]
+            },
+            {
+              "id": "9ac79a00-630e-4a2a-9604-9f526aa8799a",
+              "sceneNodeType": "item",
+              "name": "Social Bar",
+              "x": 0.6124824230313795,
+              "y": 0.5599999999999999,
+              "scaleX": 0.00033183333333333334,
+              "scaleY": 0.0005899259259259259,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "5.png"
+              }
+            },
+            {
+              "id": "25232e9e-25cb-48b3-bca7-c5d2b7642749",
+              "sceneNodeType": "item",
+              "name": "Icon - Discord",
+              "x": 0.6364009769094139,
+              "y": 0.5899777777777778,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "6.png"
+              }
+            },
+            {
+              "id": "d9891bc6-e908-45b0-942a-0f2b267e6856",
+              "sceneNodeType": "item",
+              "name": "Discord.gg",
+              "x": 0.6739009769094139,
+              "y": 0.6048,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "TextNode",
+                "settings": {
+                  "align": "left",
+                  "bk_color": 0,
+                  "bk_opacity": 0,
+                  "chatlog_lines": 6,
+                  "color": 16777215,
+                  "custom_font": "Orbitron-Bold.ttf",
+                  "extents_cx": 100,
+                  "extents_cy": 100,
+                  "extents_wrap": true,
+                  "font": {
+                    "face": "Orbitron",
+                    "flags": 1,
+                    "size": 24
+                  },
+                  "gradient_color": 16777215,
+                  "gradient_dir": 90,
+                  "gradient_opacity": 100,
+                  "opacity": 100,
+                  "outline_color": 16777215,
+                  "outline_opacity": 100,
+                  "outline_size": 2,
+                  "text": "DISCORD.GG/123",
+                  "valign": "top",
+                  "file": ""
+                }
+              }
+            },
+            {
+              "id": "8312b468-f55a-46c9-881f-ede5c4e2ca19",
+              "sceneNodeType": "folder",
+              "name": "Social - Discord",
+              "childrenIds": [
+                "d9891bc6-e908-45b0-942a-0f2b267e6856",
+                "25232e9e-25cb-48b3-bca7-c5d2b7642749",
+                "9ac79a00-630e-4a2a-9604-9f526aa8799a"
+              ]
+            },
+            {
+              "id": "3d4ac088-71c2-429c-b67c-67fb992840a7",
+              "sceneNodeType": "item",
+              "name": "Icon - Schedule",
+              "x": 0.3312675769686205,
+              "y": 0.7012222222222222,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "7.png"
+              }
+            },
+            {
+              "id": "e50002e0-292e-4e9f-bc5a-7f22b0ca3d56",
+              "sceneNodeType": "item",
+              "name": "Schedule Text",
+              "x": 0.37263451006512727,
+              "y": 0.7096444444444444,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "TextNode",
+                "settings": {
+                  "align": "left",
+                  "bk_color": 0,
+                  "bk_opacity": 0,
+                  "chatlog_lines": 6,
+                  "color": 16777215,
+                  "custom_font": "Orbitron-Regular.ttf",
+                  "extents_cx": 100,
+                  "extents_cy": 100,
+                  "extents_wrap": true,
+                  "font": {
+                    "face": "Orbitron",
+                    "flags": 0,
+                    "size": 36
+                  },
+                  "gradient_color": 16777215,
+                  "gradient_dir": 90,
+                  "gradient_opacity": 100,
+                  "opacity": 100,
+                  "outline_color": 16777215,
+                  "outline_opacity": 100,
+                  "outline_size": 2,
+                  "text": "MON - FRI  |  7:30PM - LATE",
+                  "valign": "top",
+                  "file": ""
+                }
+              }
+            },
+            {
+              "id": "edcd6153-90c4-491d-aa71-b9f9d61cd904",
+              "sceneNodeType": "folder",
+              "name": "Schedule",
+              "childrenIds": [
+                "e50002e0-292e-4e9f-bc5a-7f22b0ca3d56",
+                "3d4ac088-71c2-429c-b67c-67fb992840a7"
+              ]
+            },
+            {
+              "id": "df31e769-b6eb-43ed-a0f9-64cff3ec8870",
+              "sceneNodeType": "item",
+              "name": "Stream is...",
+              "x": 0.43850743783303725,
+              "y": 0.37524444444444444,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "TextNode",
+                "settings": {
+                  "align": "left",
+                  "bk_color": 0,
+                  "bk_opacity": 0,
+                  "chatlog_lines": 6,
+                  "color": 16777215,
+                  "custom_font": "Orbitron-Black.ttf",
+                  "extents_cx": 100,
+                  "extents_cy": 100,
+                  "extents_wrap": true,
+                  "font": {
+                    "face": "Orbitron Black",
+                    "flags": 0,
+                    "size": 36
+                  },
+                  "gradient_color": 16777215,
+                  "gradient_dir": 90,
+                  "gradient_opacity": 100,
+                  "opacity": 100,
+                  "outline_color": 16777215,
+                  "outline_opacity": 100,
+                  "outline_size": 2,
+                  "text": "STREAM IS",
+                  "valign": "top",
+                  "file": ""
+                }
+              }
+            },
+            {
+              "id": "603f086c-98cb-41d4-95a8-07c17e81662f",
+              "sceneNodeType": "item",
+              "name": "Starting",
+              "x": 0.2866317424103223,
+              "y": 0.40419259259259244,
+              "scaleX": 0.000502873563218391,
+              "scaleY": 0.000893997445721584,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "TextNode",
+                "settings": {
+                  "align": "left",
+                  "bk_color": 0,
+                  "bk_opacity": 0,
+                  "chatlog_lines": 6,
+                  "color": 16777215,
+                  "custom_font": "Orbitron-Black.ttf",
+                  "extents_cx": 100,
+                  "extents_cy": 100,
+                  "extents_wrap": true,
+                  "font": {
+                    "face": "Orbitron Black",
+                    "flags": 0,
+                    "size": 144
+                  },
+                  "gradient": false,
+                  "gradient_color": 16777215,
+                  "gradient_dir": 90,
+                  "gradient_opacity": 100,
+                  "opacity": 100,
+                  "outline_color": 16777215,
+                  "outline_opacity": 100,
+                  "outline_size": 2,
+                  "text": "STARTING",
+                  "valign": "top",
+                  "file": ""
+                }
+              }
+            },
+            {
+              "id": "8c9d8754-a8df-495e-af19-402f41577073",
+              "sceneNodeType": "item",
+              "name": "HIDE or DELETE",
+              "x": 0,
+              "y": 1.0526559048297781e-16,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "8.png"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Stream BRB",
+        "sceneId": "scene_0c8cac46-12d2-459a-b321-7fd0885c1218",
+        "slots": {
+          "schemaVersion": 1,
+          "nodeType": "SlotsNode",
+          "items": [
+            {
+              "id": "ed930637-9d53-405a-845e-b116c15dc697",
+              "sceneNodeType": "item",
+              "name": "---- Scene Background",
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "SceneSourceNode",
+                "sceneId": "scene_fab07e4a-bd8f-467f-973e-63fbc5c9e43e"
+              }
+            },
+            {
+              "id": "e4e92ac2-0543-474d-82d1-a093f83f0508",
+              "sceneNodeType": "item",
+              "name": "BE RIGHT BACK",
+              "x": 0.17347584394969467,
+              "y": 0.40419259259259244,
+              "scaleX": 0.000502873563218391,
+              "scaleY": 0.000893997445721584,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "TextNode",
+                "settings": {
+                  "align": "left",
+                  "bk_color": 0,
+                  "bk_opacity": 0,
+                  "chatlog_lines": 6,
+                  "color": 16777215,
+                  "custom_font": "Orbitron-Black.ttf",
+                  "extents_cx": 100,
+                  "extents_cy": 100,
+                  "extents_wrap": true,
+                  "font": {
+                    "face": "Orbitron Black",
+                    "flags": 0,
+                    "size": 144
+                  },
+                  "gradient": false,
+                  "gradient_color": 16777215,
+                  "gradient_dir": 90,
+                  "gradient_opacity": 100,
+                  "opacity": 100,
+                  "outline_color": 16777215,
+                  "outline_opacity": 100,
+                  "outline_size": 2,
+                  "text": "BE RIGHT BACK",
+                  "valign": "top",
+                  "file": ""
+                }
+              }
+            },
+            {
+              "id": "78631c17-0f50-4adc-9c6c-139cc26bc348",
+              "sceneNodeType": "item",
+              "name": "Icon - Schedule",
+              "x": 0.3312675769686205,
+              "y": 0.7012222222222222,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "9.png"
+              }
+            },
+            {
+              "id": "60101167-13df-4f1c-83a8-ab5549cf8d4a",
+              "sceneNodeType": "item",
+              "name": "Schedule Text",
+              "x": 0.37263451006512727,
+              "y": 0.7096444444444444,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "TextNode",
+                "settings": {
+                  "align": "left",
+                  "bk_color": 0,
+                  "bk_opacity": 0,
+                  "chatlog_lines": 6,
+                  "color": 16777215,
+                  "custom_font": "Orbitron-Regular.ttf",
+                  "extents_cx": 100,
+                  "extents_cy": 100,
+                  "extents_wrap": true,
+                  "font": {
+                    "face": "Orbitron",
+                    "flags": 0,
+                    "size": 36
+                  },
+                  "gradient_color": 16777215,
+                  "gradient_dir": 90,
+                  "gradient_opacity": 100,
+                  "opacity": 100,
+                  "outline_color": 16777215,
+                  "outline_opacity": 100,
+                  "outline_size": 2,
+                  "text": "MON - FRI  |  7:30PM - LATE",
+                  "valign": "top",
+                  "file": ""
+                }
+              }
+            },
+            {
+              "id": "39a7533d-9f72-4180-8c79-5f056927c9b8",
+              "sceneNodeType": "folder",
+              "name": "Schedule",
+              "childrenIds": [
+                "60101167-13df-4f1c-83a8-ab5549cf8d4a",
+                "78631c17-0f50-4adc-9c6c-139cc26bc348"
+              ]
+            },
+            {
+              "id": "620669b0-f6ef-42f3-b3d2-cfd7c146813e",
+              "sceneNodeType": "item",
+              "name": "Social Bar",
+              "x": 0.6124824230313795,
+              "y": 0.5599999999999999,
+              "scaleX": 0.00033183333333333334,
+              "scaleY": 0.0005899259259259259,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "10.png"
+              }
+            },
+            {
+              "id": "31febe10-ec1e-43c3-a4d6-3d3231cb628a",
+              "sceneNodeType": "item",
+              "name": "Icon - Discord",
+              "x": 0.6364009769094139,
+              "y": 0.5899777777777778,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "11.png"
+              }
+            },
+            {
+              "id": "ab30df99-e20f-4f88-b985-0ced9a53e19e",
+              "sceneNodeType": "item",
+              "name": "Discord.gg",
+              "x": 0.6739009769094139,
+              "y": 0.6048,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "TextNode",
+                "settings": {
+                  "align": "left",
+                  "bk_color": 0,
+                  "bk_opacity": 0,
+                  "chatlog_lines": 6,
+                  "color": 16777215,
+                  "custom_font": "Orbitron-Bold.ttf",
+                  "extents_cx": 100,
+                  "extents_cy": 100,
+                  "extents_wrap": true,
+                  "font": {
+                    "face": "Orbitron",
+                    "flags": 1,
+                    "size": 24
+                  },
+                  "gradient_color": 16777215,
+                  "gradient_dir": 90,
+                  "gradient_opacity": 100,
+                  "opacity": 100,
+                  "outline_color": 16777215,
+                  "outline_opacity": 100,
+                  "outline_size": 2,
+                  "text": "DISCORD.GG/123",
+                  "valign": "top",
+                  "file": ""
+                }
+              }
+            },
+            {
+              "id": "465458cb-c225-4ff8-96e0-3a298147da1c",
+              "sceneNodeType": "folder",
+              "name": "Social - Discord",
+              "childrenIds": [
+                "ab30df99-e20f-4f88-b985-0ced9a53e19e",
+                "31febe10-ec1e-43c3-a4d6-3d3231cb628a",
+                "620669b0-f6ef-42f3-b3d2-cfd7c146813e"
+              ]
+            },
+            {
+              "id": "cf871c50-dd2f-4ade-9e06-c3b11d172c2c",
+              "sceneNodeType": "item",
+              "name": "Social Bar",
+              "x": 0.37237825636471283,
+              "y": 0.5599999999999999,
+              "scaleX": 0.00033183333333333334,
+              "scaleY": 0.0005899259259259259,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "12.png"
+              }
+            },
+            {
+              "id": "d4bd15d1-a339-4a8e-9927-d18fb30704d6",
+              "sceneNodeType": "item",
+              "name": "Icon - Youtube",
+              "x": 0.39681764357608057,
+              "y": 0.5903999999999999,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "13.png"
+              }
+            },
+            {
+              "id": "ecaf8da5-1f27-4ca6-aaba-82f1b1d60511",
+              "sceneNodeType": "item",
+              "name": "YOUTUBEURL",
+              "x": 0.43379681024274724,
+              "y": 0.6048,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "TextNode",
+                "settings": {
+                  "align": "left",
+                  "bk_color": 0,
+                  "bk_opacity": 0,
+                  "chatlog_lines": 6,
+                  "color": 16777215,
+                  "custom_font": "Orbitron-Bold.ttf",
+                  "extents_cx": 100,
+                  "extents_cy": 100,
+                  "extents_wrap": true,
+                  "font": {
+                    "face": "Orbitron",
+                    "flags": 1,
+                    "size": 24
+                  },
+                  "gradient_color": 16777215,
+                  "gradient_dir": 90,
+                  "gradient_opacity": 100,
+                  "opacity": 100,
+                  "outline_color": 16777215,
+                  "outline_opacity": 100,
+                  "outline_size": 2,
+                  "text": "/YOUTUBEURL",
+                  "valign": "top",
+                  "file": ""
+                }
+              }
+            },
+            {
+              "id": "8bb89a97-9da7-40dd-b38d-576abeb45a75",
+              "sceneNodeType": "folder",
+              "name": "Social - Youtube",
+              "childrenIds": [
+                "ecaf8da5-1f27-4ca6-aaba-82f1b1d60511",
+                "d4bd15d1-a339-4a8e-9927-d18fb30704d6",
+                "cf871c50-dd2f-4ade-9e06-c3b11d172c2c"
+              ]
+            },
+            {
+              "id": "fff79896-b2d7-40d3-9c5e-fdafc3c5f1b9",
+              "sceneNodeType": "item",
+              "name": "Social Bar",
+              "x": 0.1263007563647128,
+              "y": 0.5597481481481481,
+              "scaleX": 0.00033183333333333334,
+              "scaleY": 0.0005899259259259259,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "14.png"
+              }
+            },
+            {
+              "id": "b3887c22-01c9-4230-bfa3-8322267081e3",
+              "sceneNodeType": "item",
+              "name": "Icon - Twitter",
+              "x": 0.15358847690941385,
+              "y": 0.5904,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "15.png"
+              }
+            },
+            {
+              "id": "88e7b7e0-f6eb-45be-9fe2-6be0be3c1b6c",
+              "sceneNodeType": "item",
+              "name": "@TWITTERHANDLE",
+              "x": 0.18952597690941386,
+              "y": 0.6048,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "TextNode",
+                "settings": {
+                  "align": "left",
+                  "bk_color": 0,
+                  "bk_opacity": 0,
+                  "chatlog_lines": 6,
+                  "color": 16777215,
+                  "custom_font": "Orbitron-Bold.ttf",
+                  "extents_cx": 100,
+                  "extents_cy": 100,
+                  "extents_wrap": true,
+                  "font": {
+                    "face": "Orbitron",
+                    "flags": 1,
+                    "size": 24
+                  },
+                  "gradient_color": 16777215,
+                  "gradient_dir": 90,
+                  "gradient_opacity": 100,
+                  "opacity": 100,
+                  "outline_color": 16777215,
+                  "outline_opacity": 100,
+                  "outline_size": 2,
+                  "text": "@TWITTERHANDLE",
+                  "valign": "top",
+                  "file": ""
+                }
+              }
+            },
+            {
+              "id": "3c91e2c5-ed87-4e47-b940-2859ab802f81",
+              "sceneNodeType": "folder",
+              "name": "Social - Twitter",
+              "childrenIds": [
+                "88e7b7e0-f6eb-45be-9fe2-6be0be3c1b6c",
+                "b3887c22-01c9-4230-bfa3-8322267081e3",
+                "fff79896-b2d7-40d3-9c5e-fdafc3c5f1b9"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Stream Ending",
+        "sceneId": "scene_8536a28f-934c-4311-9d58-c43f36fbdae5",
+        "slots": {
+          "schemaVersion": 1,
+          "nodeType": "SlotsNode",
+          "items": [
+            {
+              "id": "68c91ef0-35af-4e8d-bd94-5282d9ce7079",
+              "sceneNodeType": "item",
+              "name": "---- Scene Background",
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "SceneSourceNode",
+                "sceneId": "scene_fab07e4a-bd8f-467f-973e-63fbc5c9e43e"
+              }
+            },
+            {
+              "id": "f45ce9bb-2fa6-48b5-a2ed-dea926276ecb",
+              "sceneNodeType": "item",
+              "name": "Stream is...",
+              "x": 0.43850743783303725,
+              "y": 0.37524444444444444,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "TextNode",
+                "settings": {
+                  "align": "left",
+                  "bk_color": 0,
+                  "bk_opacity": 0,
+                  "chatlog_lines": 6,
+                  "color": 16777215,
+                  "custom_font": "Orbitron-Black.ttf",
+                  "extents_cx": 100,
+                  "extents_cy": 100,
+                  "extents_wrap": true,
+                  "font": {
+                    "face": "Orbitron Black",
+                    "flags": 0,
+                    "size": 36
+                  },
+                  "gradient_color": 16777215,
+                  "gradient_dir": 90,
+                  "gradient_opacity": 100,
+                  "opacity": 100,
+                  "outline_color": 16777215,
+                  "outline_opacity": 100,
+                  "outline_size": 2,
+                  "text": "STREAM IS",
+                  "valign": "top",
+                  "file": ""
+                }
+              }
+            },
+            {
+              "id": "823805b2-fff9-47ec-aad4-1d302d2992b5",
+              "sceneNodeType": "item",
+              "name": "Ending",
+              "x": 0.343923409076989,
+              "y": 0.40419259259259244,
+              "scaleX": 0.000502873563218391,
+              "scaleY": 0.000893997445721584,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "TextNode",
+                "settings": {
+                  "align": "left",
+                  "bk_color": 0,
+                  "bk_opacity": 0,
+                  "chatlog_lines": 6,
+                  "color": 16777215,
+                  "custom_font": "Orbitron-Black.ttf",
+                  "extents_cx": 100,
+                  "extents_cy": 100,
+                  "extents_wrap": true,
+                  "font": {
+                    "face": "Orbitron Black",
+                    "flags": 0,
+                    "size": 144
+                  },
+                  "gradient": false,
+                  "gradient_color": 16777215,
+                  "gradient_dir": 90,
+                  "gradient_opacity": 100,
+                  "opacity": 100,
+                  "outline_color": 16777215,
+                  "outline_opacity": 100,
+                  "outline_size": 2,
+                  "text": "ENDING",
+                  "valign": "top",
+                  "file": ""
+                }
+              }
+            },
+            {
+              "id": "cb3ecdc0-9fff-4ffa-a378-f71693545e3c",
+              "sceneNodeType": "item",
+              "name": "Schedule Text",
+              "x": 0.37263451006512727,
+              "y": 0.7096444444444444,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "TextNode",
+                "settings": {
+                  "align": "left",
+                  "bk_color": 0,
+                  "bk_opacity": 0,
+                  "chatlog_lines": 6,
+                  "color": 16777215,
+                  "custom_font": "Orbitron-Regular.ttf",
+                  "extents_cx": 100,
+                  "extents_cy": 100,
+                  "extents_wrap": true,
+                  "font": {
+                    "face": "Orbitron",
+                    "flags": 0,
+                    "size": 36
+                  },
+                  "gradient_color": 16777215,
+                  "gradient_dir": 90,
+                  "gradient_opacity": 100,
+                  "opacity": 100,
+                  "outline_color": 16777215,
+                  "outline_opacity": 100,
+                  "outline_size": 2,
+                  "text": "MON - FRI  |  7:30PM - LATE",
+                  "valign": "top",
+                  "file": ""
+                }
+              }
+            },
+            {
+              "id": "7e45aab2-b155-4770-966f-a0cd52bc0774",
+              "sceneNodeType": "item",
+              "name": "Icon - Schedule",
+              "x": 0.3312675769686205,
+              "y": 0.7012222222222222,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "16.png"
+              }
+            },
+            {
+              "id": "230af07b-b9d5-4713-bc87-d8e570db968e",
+              "sceneNodeType": "folder",
+              "name": "Schedule",
+              "childrenIds": [
+                "7e45aab2-b155-4770-966f-a0cd52bc0774",
+                "cb3ecdc0-9fff-4ffa-a378-f71693545e3c"
+              ]
+            },
+            {
+              "id": "54ccc59a-036c-43c0-80da-284280ae4346",
+              "sceneNodeType": "item",
+              "name": "Social Bar",
+              "x": 0.6124824230313795,
+              "y": 0.5599999999999999,
+              "scaleX": 0.00033183333333333334,
+              "scaleY": 0.0005899259259259259,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "17.png"
+              }
+            },
+            {
+              "id": "841bbde2-e5aa-4598-be2b-5551eee7cbea",
+              "sceneNodeType": "item",
+              "name": "Icon - Discord",
+              "x": 0.6364009769094139,
+              "y": 0.5899777777777778,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "18.png"
+              }
+            },
+            {
+              "id": "60ed3bd3-5b36-4b27-9ac4-2dd38ab93095",
+              "sceneNodeType": "item",
+              "name": "Discord.gg",
+              "x": 0.6739009769094139,
+              "y": 0.6048,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "TextNode",
+                "settings": {
+                  "align": "left",
+                  "bk_color": 0,
+                  "bk_opacity": 0,
+                  "chatlog_lines": 6,
+                  "color": 16777215,
+                  "custom_font": "Orbitron-Bold.ttf",
+                  "extents_cx": 100,
+                  "extents_cy": 100,
+                  "extents_wrap": true,
+                  "font": {
+                    "face": "Orbitron",
+                    "flags": 1,
+                    "size": 24
+                  },
+                  "gradient_color": 16777215,
+                  "gradient_dir": 90,
+                  "gradient_opacity": 100,
+                  "opacity": 100,
+                  "outline_color": 16777215,
+                  "outline_opacity": 100,
+                  "outline_size": 2,
+                  "text": "DISCORD.GG/123",
+                  "valign": "top",
+                  "file": ""
+                }
+              }
+            },
+            {
+              "id": "5d0da15b-1c41-4ea0-93ef-55d33d71b23d",
+              "sceneNodeType": "folder",
+              "name": "Social - Discord",
+              "childrenIds": [
+                "60ed3bd3-5b36-4b27-9ac4-2dd38ab93095",
+                "841bbde2-e5aa-4598-be2b-5551eee7cbea",
+                "54ccc59a-036c-43c0-80da-284280ae4346"
+              ]
+            },
+            {
+              "id": "5e51cb91-a8ab-4638-8956-8a84c727cf0e",
+              "sceneNodeType": "item",
+              "name": "Social Bar",
+              "x": 0.37237825636471283,
+              "y": 0.5599999999999999,
+              "scaleX": 0.00033183333333333334,
+              "scaleY": 0.0005899259259259259,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "19.png"
+              }
+            },
+            {
+              "id": "d106fd92-0083-4c80-913e-b028c56fdf67",
+              "sceneNodeType": "item",
+              "name": "Icon - Youtube",
+              "x": 0.39681764357608057,
+              "y": 0.5903999999999999,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "20.png"
+              }
+            },
+            {
+              "id": "ba076f1b-ddd7-4f9f-83f5-d6d993c54f0a",
+              "sceneNodeType": "item",
+              "name": "YOUTUBEURL",
+              "x": 0.43379681024274724,
+              "y": 0.6048,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "TextNode",
+                "settings": {
+                  "align": "left",
+                  "bk_color": 0,
+                  "bk_opacity": 0,
+                  "chatlog_lines": 6,
+                  "color": 16777215,
+                  "custom_font": "Orbitron-Bold.ttf",
+                  "extents_cx": 100,
+                  "extents_cy": 100,
+                  "extents_wrap": true,
+                  "font": {
+                    "face": "Orbitron",
+                    "flags": 1,
+                    "size": 24
+                  },
+                  "gradient_color": 16777215,
+                  "gradient_dir": 90,
+                  "gradient_opacity": 100,
+                  "opacity": 100,
+                  "outline_color": 16777215,
+                  "outline_opacity": 100,
+                  "outline_size": 2,
+                  "text": "/YOUTUBEURL",
+                  "valign": "top",
+                  "file": ""
+                }
+              }
+            },
+            {
+              "id": "a00d173b-d7f0-4db9-b49c-cdcbac913515",
+              "sceneNodeType": "folder",
+              "name": "Social - Youtube",
+              "childrenIds": [
+                "ba076f1b-ddd7-4f9f-83f5-d6d993c54f0a",
+                "d106fd92-0083-4c80-913e-b028c56fdf67",
+                "5e51cb91-a8ab-4638-8956-8a84c727cf0e"
+              ]
+            },
+            {
+              "id": "c9abb850-a124-4ee7-80b6-40ad1e69f56c",
+              "sceneNodeType": "item",
+              "name": "Social Bar",
+              "x": 0.1263007563647128,
+              "y": 0.5597481481481481,
+              "scaleX": 0.00033183333333333334,
+              "scaleY": 0.0005899259259259259,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "21.png"
+              }
+            },
+            {
+              "id": "0de85976-37c5-4b04-a813-7d6426726a8d",
+              "sceneNodeType": "item",
+              "name": "Icon - Twitter",
+              "x": 0.15358847690941385,
+              "y": 0.5904,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "22.png"
+              }
+            },
+            {
+              "id": "0beda6d1-cd38-4c7d-b947-3220511a0660",
+              "sceneNodeType": "item",
+              "name": "@TWITTERHANDLE",
+              "x": 0.18952597690941386,
+              "y": 0.6048,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "TextNode",
+                "settings": {
+                  "align": "left",
+                  "bk_color": 0,
+                  "bk_opacity": 0,
+                  "chatlog_lines": 6,
+                  "color": 16777215,
+                  "custom_font": "Orbitron-Bold.ttf",
+                  "extents_cx": 100,
+                  "extents_cy": 100,
+                  "extents_wrap": true,
+                  "font": {
+                    "face": "Orbitron",
+                    "flags": 1,
+                    "size": 24
+                  },
+                  "gradient_color": 16777215,
+                  "gradient_dir": 90,
+                  "gradient_opacity": 100,
+                  "opacity": 100,
+                  "outline_color": 16777215,
+                  "outline_opacity": 100,
+                  "outline_size": 2,
+                  "text": "@TWITTERHANDLE",
+                  "valign": "top",
+                  "file": ""
+                }
+              }
+            },
+            {
+              "id": "58724896-2593-4585-aab4-2b668b08ba2c",
+              "sceneNodeType": "folder",
+              "name": "Social - Twitter",
+              "childrenIds": [
+                "0beda6d1-cd38-4c7d-b947-3220511a0660",
+                "0de85976-37c5-4b04-a813-7d6426726a8d",
+                "c9abb850-a124-4ee7-80b6-40ad1e69f56c"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "In-Game 1",
+        "sceneId": "scene_88418cf2-1157-42ca-bfec-4a5fc28212ae",
+        "slots": {
+          "schemaVersion": 1,
+          "nodeType": "SlotsNode",
+          "items": [
+            {
+              "id": "1e86007d-502f-4403-b8fe-638a53ddb0d4",
+              "sceneNodeType": "item",
+              "name": "Supporter Bar Preset x3",
+              "x": 0.015985790408525644,
+              "y": 0.5414814814814816,
+              "scaleX": 0.0002586223722991043,
+              "scaleY": 0.0004597731063095188,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "23.png"
+              }
+            },
+            {
+              "id": "15ecc269-1a05-4875-956f-2d8b7800a7ae",
+              "sceneNodeType": "item",
+              "name": "Label - Top Tipper",
+              "x": 0.044371669626998116,
+              "y": 0.5738962962962963,
+              "scaleX": 0.0004263257575757558,
+              "scaleY": 0.0007579124579124547,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "StreamlabelNode",
+                "labelType": "all_time_top_donator",
+                "textSource": {
+                  "schemaVersion": 1,
+                  "nodeType": "TextNode",
+                  "settings": {
+                    "align": "left",
+                    "bk_color": 0,
+                    "bk_opacity": 0,
+                    "chatlog_lines": 6,
+                    "color": 1937919,
+                    "custom_font": "Orbitron-Black.ttf",
+                    "extents_cx": 100,
+                    "extents_cy": 100,
+                    "extents_wrap": true,
+                    "file": "",
+                    "font": {
+                      "face": "Orbitron Black",
+                      "flags": 0,
+                      "size": 18
+                    },
+                    "gradient_color": 16777215,
+                    "gradient_dir": 90,
+                    "gradient_opacity": 100,
+                    "opacity": 100,
+                    "outline_color": 16777215,
+                    "outline_opacity": 100,
+                    "outline_size": 2,
+                    "read_from_file": true,
+                    "text": "Label - Top Tipper",
+                    "valign": "top"
+                  }
+                }
+              }
+            },
+            {
+              "id": "bdf5fde0-d437-45fe-bc52-077647ca82c6",
+              "sceneNodeType": "item",
+              "name": "Label - New Tipper",
+              "x": 0.04489250296033145,
+              "y": 0.6183407407407409,
+              "scaleX": 0.0004241669096789595,
+              "scaleY": 0.000754074506095928,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "StreamlabelNode",
+                "labelType": "most_recent_donator",
+                "textSource": {
+                  "schemaVersion": 1,
+                  "nodeType": "TextNode",
+                  "settings": {
+                    "align": "left",
+                    "bk_color": 0,
+                    "bk_opacity": 0,
+                    "chatlog_lines": 6,
+                    "color": 1937919,
+                    "custom_font": "Orbitron-Black.ttf",
+                    "extents_cx": 100,
+                    "extents_cy": 100,
+                    "extents_wrap": true,
+                    "file": "",
+                    "font": {
+                      "face": "Orbitron Black",
+                      "flags": 0,
+                      "size": 18
+                    },
+                    "gradient_color": 16777215,
+                    "gradient_dir": 90,
+                    "gradient_opacity": 100,
+                    "opacity": 100,
+                    "outline_color": 16777215,
+                    "outline_opacity": 100,
+                    "outline_size": 2,
+                    "read_from_file": true,
+                    "text": "Label - Top Tipper",
+                    "valign": "top"
+                  }
+                }
+              }
+            },
+            {
+              "id": "1b728354-c3f3-4917-8a1b-92731a70cad2",
+              "sceneNodeType": "item",
+              "name": "Label - Follower",
+              "x": 0.04489250296033145,
+              "y": 0.6627851851851853,
+              "scaleX": 0.0004401515151515121,
+              "scaleY": 0.0007824915824915771,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "StreamlabelNode",
+                "labelType": "most_recent_follower",
+                "textSource": {
+                  "schemaVersion": 1,
+                  "nodeType": "TextNode",
+                  "settings": {
+                    "align": "left",
+                    "bk_color": 0,
+                    "bk_opacity": 0,
+                    "chatlog_lines": 6,
+                    "color": 1937919,
+                    "custom_font": "Orbitron-Black.ttf",
+                    "extents_cx": 100,
+                    "extents_cy": 100,
+                    "extents_wrap": true,
+                    "file": "",
+                    "font": {
+                      "face": "Orbitron Black",
+                      "flags": 0,
+                      "size": 18
+                    },
+                    "gradient_color": 16777215,
+                    "gradient_dir": 90,
+                    "gradient_opacity": 100,
+                    "opacity": 100,
+                    "outline_color": 16777215,
+                    "outline_opacity": 100,
+                    "outline_size": 2,
+                    "read_from_file": true,
+                    "text": "Label - Top Tipper",
+                    "valign": "top"
+                  }
+                }
+              }
+            },
+            {
+              "id": "8ab63563-7ef2-42ad-a07f-4bc6f3e31601",
+              "sceneNodeType": "folder",
+              "name": "Support Bar x3",
+              "childrenIds": [
+                "1b728354-c3f3-4917-8a1b-92731a70cad2",
+                "bdf5fde0-d437-45fe-bc52-077647ca82c6",
+                "15ecc269-1a05-4875-956f-2d8b7800a7ae",
+                "1e86007d-502f-4403-b8fe-638a53ddb0d4"
+              ]
+            },
+            {
+              "id": "f6ca1676-021d-4be8-8466-1f837cf43f04",
+              "sceneNodeType": "item",
+              "name": "Supporter Bar Preset x4",
+              "x": 0.7703781823564237,
+              "y": 0.5339925925925926,
+              "scaleX": 0.0002578971995046598,
+              "scaleY": 0.0004584839102305063,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "24.png"
+              }
+            },
+            {
+              "id": "0e5e3cfb-3e70-4120-a5d4-7cf168dffbd1",
+              "sceneNodeType": "item",
+              "name": "Label - Top Tipper",
+              "x": 0.7986114194789813,
+              "y": 0.5654814814814815,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "StreamlabelNode",
+                "labelType": "all_time_top_donator",
+                "textSource": {
+                  "schemaVersion": 1,
+                  "nodeType": "TextNode",
+                  "settings": {
+                    "align": "left",
+                    "bk_color": 0,
+                    "bk_opacity": 0,
+                    "chatlog_lines": 6,
+                    "color": 1937919,
+                    "custom_font": "Orbitron-Black.ttf",
+                    "extents_cx": 100,
+                    "extents_cy": 100,
+                    "extents_wrap": true,
+                    "file": "",
+                    "font": {
+                      "face": "Orbitron Black",
+                      "flags": 0,
+                      "size": 14
+                    },
+                    "gradient_color": 16777215,
+                    "gradient_dir": 90,
+                    "gradient_opacity": 100,
+                    "opacity": 100,
+                    "outline_color": 16777215,
+                    "outline_opacity": 100,
+                    "outline_size": 2,
+                    "read_from_file": true,
+                    "text": "Label - Top Tipper",
+                    "valign": "top"
+                  }
+                }
+              }
+            },
+            {
+              "id": "5fdfbba1-dc80-464c-928f-4bb5158cb78e",
+              "sceneNodeType": "item",
+              "name": "Label - New Tipper",
+              "x": 0.7991322528123147,
+              "y": 0.6117777777777778,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "StreamlabelNode",
+                "labelType": "most_recent_donator",
+                "textSource": {
+                  "schemaVersion": 1,
+                  "nodeType": "TextNode",
+                  "settings": {
+                    "align": "left",
+                    "bk_color": 0,
+                    "bk_opacity": 0,
+                    "chatlog_lines": 6,
+                    "color": 1937919,
+                    "custom_font": "Orbitron-Black.ttf",
+                    "extents_cx": 100,
+                    "extents_cy": 100,
+                    "extents_wrap": true,
+                    "file": "",
+                    "font": {
+                      "face": "Orbitron Black",
+                      "flags": 0,
+                      "size": 14
+                    },
+                    "gradient_color": 16777215,
+                    "gradient_dir": 90,
+                    "gradient_opacity": 100,
+                    "opacity": 100,
+                    "outline_color": 16777215,
+                    "outline_opacity": 100,
+                    "outline_size": 2,
+                    "read_from_file": true,
+                    "text": "Label - Top Tipper",
+                    "valign": "top"
+                  }
+                }
+              }
+            },
+            {
+              "id": "a880b7a9-6806-4858-9979-8c5347091c46",
+              "sceneNodeType": "item",
+              "name": "Label - Sub",
+              "x": 0.8001739194789813,
+              "y": 0.6543703703703704,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "StreamlabelNode",
+                "labelType": "most_recent_subscriber",
+                "textSource": {
+                  "schemaVersion": 1,
+                  "nodeType": "TextNode",
+                  "settings": {
+                    "align": "left",
+                    "bk_color": 0,
+                    "bk_opacity": 0,
+                    "chatlog_lines": 6,
+                    "color": 1937919,
+                    "custom_font": "Orbitron-Black.ttf",
+                    "extents_cx": 100,
+                    "extents_cy": 100,
+                    "extents_wrap": true,
+                    "file": "",
+                    "font": {
+                      "face": "Orbitron Black",
+                      "flags": 0,
+                      "size": 14
+                    },
+                    "gradient_color": 16777215,
+                    "gradient_dir": 90,
+                    "gradient_opacity": 100,
+                    "opacity": 100,
+                    "outline_color": 16777215,
+                    "outline_opacity": 100,
+                    "outline_size": 2,
+                    "read_from_file": true,
+                    "text": "Label - Top Tipper",
+                    "valign": "top"
+                  }
+                }
+              }
+            },
+            {
+              "id": "66dff787-1c44-4778-ab27-b01b689b47d3",
+              "sceneNodeType": "item",
+              "name": "Label - New Cheer",
+              "x": 0.8001739194789813,
+              "y": 0.6988148148148149,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "StreamlabelNode",
+                "labelType": "most_recent_cheerer",
+                "textSource": {
+                  "schemaVersion": 1,
+                  "nodeType": "TextNode",
+                  "settings": {
+                    "align": "left",
+                    "bk_color": 0,
+                    "bk_opacity": 0,
+                    "chatlog_lines": 6,
+                    "color": 1937919,
+                    "custom_font": "Orbitron-Black.ttf",
+                    "extents_cx": 100,
+                    "extents_cy": 100,
+                    "extents_wrap": true,
+                    "file": "",
+                    "font": {
+                      "face": "Orbitron Black",
+                      "flags": 0,
+                      "size": 14
+                    },
+                    "gradient_color": 16777215,
+                    "gradient_dir": 90,
+                    "gradient_opacity": 100,
+                    "opacity": 100,
+                    "outline_color": 16777215,
+                    "outline_opacity": 100,
+                    "outline_size": 2,
+                    "read_from_file": true,
+                    "text": "Label - Top Tipper",
+                    "valign": "top"
+                  }
+                }
+              }
+            },
+            {
+              "id": "d503feea-f189-4975-ad29-587e30cd0e3b",
+              "sceneNodeType": "folder",
+              "name": "Support Bar x4",
+              "childrenIds": [
+                "66dff787-1c44-4778-ab27-b01b689b47d3",
+                "a880b7a9-6806-4858-9979-8c5347091c46",
+                "5fdfbba1-dc80-464c-928f-4bb5158cb78e",
+                "0e5e3cfb-3e70-4120-a5d4-7cf168dffbd1",
+                "f6ca1676-021d-4be8-8466-1f837cf43f04"
+              ]
+            },
+            {
+              "id": "dfe3f8a8-0f6f-473a-9353-366064083c8a",
+              "sceneNodeType": "item",
+              "name": "Support Bar Horizontal",
+              "x": 0.1696269982238011,
+              "y": 0.9323848499184707,
+              "scaleX": 0.00034575929018963784,
+              "scaleY": 0.0006146831825593562,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "25.png"
+              }
+            },
+            {
+              "id": "2c8f0093-f1b2-4ba5-8a98-4385473fee8d",
+              "sceneNodeType": "item",
+              "name": "Label - Top Tipper",
+              "x": 0.29554285079928955,
+              "y": 0.9573848499184708,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "StreamlabelNode",
+                "labelType": "all_time_top_donator",
+                "textSource": {
+                  "schemaVersion": 1,
+                  "nodeType": "TextNode",
+                  "settings": {
+                    "align": "left",
+                    "bk_color": 0,
+                    "bk_opacity": 0,
+                    "chatlog_lines": 6,
+                    "color": 1937919,
+                    "custom_font": "Orbitron-Black.ttf",
+                    "extents_cx": 100,
+                    "extents_cy": 100,
+                    "extents_wrap": true,
+                    "file": "",
+                    "font": {
+                      "face": "Orbitron Black",
+                      "flags": 0,
+                      "size": 18
+                    },
+                    "gradient_color": 16777215,
+                    "gradient_dir": 90,
+                    "gradient_opacity": 100,
+                    "opacity": 100,
+                    "outline_color": 16777215,
+                    "outline_opacity": 100,
+                    "outline_size": 2,
+                    "read_from_file": true,
+                    "text": "Label - Top Tipper",
+                    "valign": "top"
+                  }
+                }
+              }
+            },
+            {
+              "id": "ca3b4704-d5d7-4002-ba23-7aa66afe1d11",
+              "sceneNodeType": "item",
+              "name": "Heading - Top Tip",
+              "x": 0.22783451746595615,
+              "y": 0.9573848499184708,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "TextNode",
+                "settings": {
+                  "align": "left",
+                  "bk_color": 0,
+                  "bk_opacity": 0,
+                  "chatlog_lines": 6,
+                  "color": 16777215,
+                  "custom_font": "Orbitron-Black.ttf",
+                  "extents_cx": 100,
+                  "extents_cy": 100,
+                  "extents_wrap": true,
+                  "font": {
+                    "face": "Orbitron Black",
+                    "flags": 0,
+                    "size": 18
+                  },
+                  "gradient_color": 16777215,
+                  "gradient_dir": 90,
+                  "gradient_opacity": 100,
+                  "opacity": 100,
+                  "outline_color": 16777215,
+                  "outline_opacity": 100,
+                  "outline_size": 2,
+                  "text": "TOP TIPPER",
+                  "valign": "top",
+                  "file": ""
+                }
+              }
+            },
+            {
+              "id": "8091524d-bcf0-4aac-8346-ffba64d0dff0",
+              "sceneNodeType": "item",
+              "name": "Icon_TopTip_.png",
+              "x": 0.20439701746595615,
+              "y": 0.9507142361430614,
+              "scaleX": 0.00030559255970002015,
+              "scaleY": 0.0005432756616889246,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "26.png"
+              }
+            },
+            {
+              "id": "abd23486-ee6f-462d-894d-271afd4f3d30",
+              "sceneNodeType": "item",
+              "name": "Label - New Tipper",
+              "x": 0.4889487122557726,
+              "y": 0.9573848499184708,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "StreamlabelNode",
+                "labelType": "most_recent_donator",
+                "textSource": {
+                  "schemaVersion": 1,
+                  "nodeType": "TextNode",
+                  "settings": {
+                    "align": "left",
+                    "bk_color": 0,
+                    "bk_opacity": 0,
+                    "chatlog_lines": 6,
+                    "color": 1937919,
+                    "custom_font": "Orbitron-Black.ttf",
+                    "extents_cx": 100,
+                    "extents_cy": 100,
+                    "extents_wrap": true,
+                    "file": "",
+                    "font": {
+                      "face": "Orbitron Black",
+                      "flags": 0,
+                      "size": 18
+                    },
+                    "gradient_color": 16777215,
+                    "gradient_dir": 90,
+                    "gradient_opacity": 100,
+                    "opacity": 100,
+                    "outline_color": 16777215,
+                    "outline_opacity": 100,
+                    "outline_size": 2,
+                    "read_from_file": true,
+                    "text": "Label - Top Tipper",
+                    "valign": "top"
+                  }
+                }
+              }
+            },
+            {
+              "id": "4cc897da-06ee-4ca8-a3ff-9ce40552553f",
+              "sceneNodeType": "item",
+              "name": "Heading - Top Tip",
+              "x": 0.4457195455891059,
+              "y": 0.9573848499184708,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "TextNode",
+                "settings": {
+                  "align": "left",
+                  "bk_color": 0,
+                  "bk_opacity": 0,
+                  "chatlog_lines": 6,
+                  "color": 16777215,
+                  "custom_font": "Orbitron-Black.ttf",
+                  "extents_cx": 100,
+                  "extents_cy": 100,
+                  "extents_wrap": true,
+                  "font": {
+                    "face": "Orbitron Black",
+                    "flags": 0,
+                    "size": 18
+                  },
+                  "gradient_color": 16777215,
+                  "gradient_dir": 90,
+                  "gradient_opacity": 100,
+                  "opacity": 100,
+                  "outline_color": 16777215,
+                  "outline_opacity": 100,
+                  "outline_size": 2,
+                  "text": "TIPPER",
+                  "valign": "top",
+                  "file": ""
+                }
+              }
+            },
+            {
+              "id": "02a9f7d0-2266-4817-befe-4ad047fb5e87",
+              "sceneNodeType": "item",
+              "name": "Icon_Tip.png",
+              "x": 0.4222820455891059,
+              "y": 0.9505703703703704,
+              "scaleX": 0.0003069413013189977,
+              "scaleY": 0.0005456734245671072,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "27.png"
+              }
+            },
+            {
+              "id": "abd643ab-f252-4966-99f9-89ee0f5e22aa",
+              "sceneNodeType": "item",
+              "name": "Label - Follower",
+              "x": 0.7236613750740081,
+              "y": 0.9573848499184708,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "StreamlabelNode",
+                "labelType": "most_recent_follower",
+                "textSource": {
+                  "schemaVersion": 1,
+                  "nodeType": "TextNode",
+                  "settings": {
+                    "align": "left",
+                    "bk_color": 0,
+                    "bk_opacity": 0,
+                    "chatlog_lines": 6,
+                    "color": 1937919,
+                    "custom_font": "Orbitron-Black.ttf",
+                    "extents_cx": 100,
+                    "extents_cy": 100,
+                    "extents_wrap": true,
+                    "file": "",
+                    "font": {
+                      "face": "Orbitron Black",
+                      "flags": 0,
+                      "size": 18
+                    },
+                    "gradient_color": 16777215,
+                    "gradient_dir": 90,
+                    "gradient_opacity": 100,
+                    "opacity": 100,
+                    "outline_color": 16777215,
+                    "outline_opacity": 100,
+                    "outline_size": 2,
+                    "read_from_file": true,
+                    "text": "Label - Top Tipper",
+                    "valign": "top"
+                  }
+                }
+              }
+            },
+            {
+              "id": "f0176437-1454-4029-9e70-877a52222740",
+              "sceneNodeType": "item",
+              "name": "Heading - Top Tip",
+              "x": 0.6507780121373593,
+              "y": 0.9573848499184708,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "TextNode",
+                "settings": {
+                  "align": "left",
+                  "bk_color": 0,
+                  "bk_opacity": 0,
+                  "chatlog_lines": 6,
+                  "color": 16777215,
+                  "custom_font": "Orbitron-Black.ttf",
+                  "extents_cx": 100,
+                  "extents_cy": 100,
+                  "extents_wrap": true,
+                  "font": {
+                    "face": "Orbitron Black",
+                    "flags": 0,
+                    "size": 18
+                  },
+                  "gradient_color": 16777215,
+                  "gradient_dir": 90,
+                  "gradient_opacity": 100,
+                  "opacity": 100,
+                  "outline_color": 16777215,
+                  "outline_opacity": 100,
+                  "outline_size": 2,
+                  "text": "FOLLOWER",
+                  "valign": "top",
+                  "file": ""
+                }
+              }
+            },
+            {
+              "id": "c4b3fddf-e841-4bec-a8d2-d7332d2111d7",
+              "sceneNodeType": "item",
+              "name": "Icon_Follower.png",
+              "x": 0.6273405121373593,
+              "y": 0.9505703703703704,
+              "scaleX": 0.0003069413013189977,
+              "scaleY": 0.0005456734245671072,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "28.png"
+              }
+            },
+            {
+              "id": "e32740a1-533c-42f2-b243-4f4b83aebbd9",
+              "sceneNodeType": "folder",
+              "name": "Support Bar Horizontal",
+              "childrenIds": [
+                "c4b3fddf-e841-4bec-a8d2-d7332d2111d7",
+                "f0176437-1454-4029-9e70-877a52222740",
+                "abd643ab-f252-4966-99f9-89ee0f5e22aa",
+                "02a9f7d0-2266-4817-befe-4ad047fb5e87",
+                "4cc897da-06ee-4ca8-a3ff-9ce40552553f",
+                "abd23486-ee6f-462d-894d-271afd4f3d30",
+                "8091524d-bcf0-4aac-8346-ffba64d0dff0",
+                "ca3b4704-d5d7-4002-ba23-7aa66afe1d11",
+                "2c8f0093-f1b2-4ba5-8a98-4385473fee8d",
+                "dfe3f8a8-0f6f-473a-9353-366064083c8a"
+              ]
+            },
+            {
+              "id": "9cb2123f-3afa-45bc-8bcc-f657740418fd",
+              "sceneNodeType": "item",
+              "name": "Dropzone_Webcam_4-3_Basic",
+              "x": 0.2248027352322167,
+              "y": 0.24,
+              "scaleX": 0.0004160760776330191,
+              "scaleY": 0.0007396908046809228,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "29.png"
+              }
+            },
+            {
+              "id": "77e058e7-7c77-4986-85f1-909752d5e4ff",
+              "sceneNodeType": "item",
+              "name": "Dropzone_Webcam_16-9_Basic",
+              "x": 0.5568383658969805,
+              "y": 0.27199999999999996,
+              "scaleX": 0.0003631629531623184,
+              "scaleY": 0.0006456230278441215,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "30.png"
+              }
+            },
+            {
+              "id": "19883d0e-05bc-41bd-97f9-3defd5888214",
+              "sceneNodeType": "item",
+              "name": "Webcam 4:3 w/ Social",
+              "x": 0.017915556542332716,
+              "y": 0.24,
+              "scaleX": 0.00041537106135986743,
+              "scaleY": 0.0007384374424175422,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "31.png"
+              }
+            },
+            {
+              "id": "cb88bcee-fbfd-47e9-bfa8-e47828ed3ee0",
+              "sceneNodeType": "item",
+              "name": "Icon - Twitter",
+              "x": 0.02988824748371807,
+              "y": 0.5074518518518518,
+              "scaleX": 0.0001350000000000002,
+              "scaleY": 0.00024000000000000036,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "32.png"
+              }
+            },
+            {
+              "id": "dc5f61ef-e845-42c5-bb18-15c667eee992",
+              "sceneNodeType": "item",
+              "name": "Icon - Youtube",
+              "x": 0.19422735346358777,
+              "y": 0.5056,
+              "scaleX": 0.00013895833333333368,
+              "scaleY": 0.00024703703703703763,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "33.png"
+              }
+            },
+            {
+              "id": "246f4381-2551-4424-ad4d-e00509742c01",
+              "sceneNodeType": "item",
+              "name": "Social Left",
+              "x": 0.041021580817051394,
+              "y": 0.5103111111111112,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "TextNode",
+                "settings": {
+                  "align": "left",
+                  "bk_color": 0,
+                  "bk_opacity": 0,
+                  "chatlog_lines": 6,
+                  "color": 16777215,
+                  "custom_font": "Orbitron-Black.ttf",
+                  "extents_cx": 100,
+                  "extents_cy": 100,
+                  "extents_wrap": true,
+                  "font": {
+                    "face": "Orbitron Black",
+                    "flags": 0,
+                    "size": 9
+                  },
+                  "gradient_color": 16777215,
+                  "gradient_dir": 90,
+                  "gradient_opacity": 100,
+                  "opacity": 100,
+                  "outline_color": 16777215,
+                  "outline_opacity": 100,
+                  "outline_size": 2,
+                  "text": "@TWITTER",
+                  "valign": "top",
+                  "file": ""
+                }
+              }
+            },
+            {
+              "id": "da1c5278-0a77-4864-b21b-cfec08b01ea4",
+              "sceneNodeType": "item",
+              "name": "Social Right",
+              "x": 0.15143824748371806,
+              "y": 0.5084592592592594,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "TextNode",
+                "settings": {
+                  "align": "right",
+                  "bk_color": 0,
+                  "bk_opacity": 0,
+                  "chatlog_lines": 6,
+                  "color": 16777215,
+                  "custom_font": "Orbitron-Black.ttf",
+                  "extents_cx": 100,
+                  "extents_cy": 100,
+                  "extents_wrap": true,
+                  "font": {
+                    "face": "Orbitron Black",
+                    "flags": 0,
+                    "size": 9
+                  },
+                  "gradient_color": 16777215,
+                  "gradient_dir": 90,
+                  "gradient_opacity": 100,
+                  "opacity": 100,
+                  "outline_color": 16777215,
+                  "outline_opacity": 100,
+                  "outline_size": 2,
+                  "text": "/YOUTUBEURL",
+                  "valign": "top",
+                  "file": ""
+                }
+              }
+            },
+            {
+              "id": "5032eaed-01cc-47c2-b437-24616c602884",
+              "sceneNodeType": "folder",
+              "name": "Webcam 4:3 w/ Social",
+              "childrenIds": [
+                "da1c5278-0a77-4864-b21b-cfec08b01ea4",
+                "246f4381-2551-4424-ad4d-e00509742c01",
+                "dc5f61ef-e845-42c5-bb18-15c667eee992",
+                "cb88bcee-fbfd-47e9-bfa8-e47828ed3ee0",
+                "19883d0e-05bc-41bd-97f9-3defd5888214"
+              ]
+            },
+            {
+              "id": "b8019bf2-5c85-4408-aefc-2060183b191e",
+              "sceneNodeType": "item",
+              "name": "Webcam 16:9 w/ Social",
+              "x": 0.7745292513895883,
+              "y": 0.27199999999999996,
+              "scaleX": 0.0003665941127694859,
+              "scaleY": 0.0006517228671457526,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "34.png"
+              }
+            },
+            {
+              "id": "9bf9f7f4-f90c-4fa4-8789-8bc7a7b6402d",
+              "sceneNodeType": "item",
+              "name": "Icon - Twitter",
+              "x": 0.785825185020722,
+              "y": 0.5057279915795009,
+              "scaleX": 0.00015039730116440196,
+              "scaleY": 0.0002673729798478257,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "35.png"
+              }
+            },
+            {
+              "id": "ec353a6c-0010-4bee-ae90-8ea083780eb8",
+              "sceneNodeType": "item",
+              "name": "Icon - Youtube",
+              "x": 0.970618457667258,
+              "y": 0.5056,
+              "scaleX": 0.00015555555555555518,
+              "scaleY": 0.00027654320987654255,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "36.png"
+              }
+            },
+            {
+              "id": "9606aae3-639e-408f-b389-6c02810095af",
+              "sceneNodeType": "item",
+              "name": "Social Left",
+              "x": 0.7979043516873888,
+              "y": 0.5074518518518519,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "TextNode",
+                "settings": {
+                  "align": "left",
+                  "bk_color": 0,
+                  "bk_opacity": 0,
+                  "chatlog_lines": 6,
+                  "color": 16777215,
+                  "custom_font": "Orbitron-Black.ttf",
+                  "extents_cx": 100,
+                  "extents_cy": 100,
+                  "extents_wrap": true,
+                  "font": {
+                    "face": "Orbitron Black",
+                    "flags": 0,
+                    "size": 9
+                  },
+                  "gradient_color": 16777215,
+                  "gradient_dir": 90,
+                  "gradient_opacity": 100,
+                  "opacity": 100,
+                  "outline_color": 16777215,
+                  "outline_opacity": 100,
+                  "outline_size": 2,
+                  "text": "@TWITTER",
+                  "valign": "top",
+                  "file": ""
+                }
+              }
+            },
+            {
+              "id": "7a0a45cf-a631-484a-8613-edde5f678517",
+              "sceneNodeType": "item",
+              "name": "Social Right",
+              "x": 0.9275918516873884,
+              "y": 0.5083777777777779,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "TextNode",
+                "settings": {
+                  "align": "right",
+                  "bk_color": 0,
+                  "bk_opacity": 0,
+                  "chatlog_lines": 6,
+                  "color": 16777215,
+                  "custom_font": "Orbitron-Black.ttf",
+                  "extents_cx": 100,
+                  "extents_cy": 100,
+                  "extents_wrap": true,
+                  "font": {
+                    "face": "Orbitron Black",
+                    "flags": 0,
+                    "size": 9
+                  },
+                  "gradient_color": 16777215,
+                  "gradient_dir": 90,
+                  "gradient_opacity": 100,
+                  "opacity": 100,
+                  "outline_color": 16777215,
+                  "outline_opacity": 100,
+                  "outline_size": 2,
+                  "text": "/YOUTUBEURL",
+                  "valign": "top",
+                  "file": ""
+                }
+              }
+            },
+            {
+              "id": "5caab1e2-6b91-492d-8c68-869c708e9461",
+              "sceneNodeType": "folder",
+              "name": "Webcam 16:9 w/ Social",
+              "childrenIds": [
+                "7a0a45cf-a631-484a-8613-edde5f678517",
+                "9606aae3-639e-408f-b389-6c02810095af",
+                "ec353a6c-0010-4bee-ae90-8ea083780eb8",
+                "9bf9f7f4-f90c-4fa4-8789-8bc7a7b6402d",
+                "b8019bf2-5c85-4408-aefc-2060183b191e"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "---- Scene Background",
+        "sceneId": "scene_fab07e4a-bd8f-467f-973e-63fbc5c9e43e",
+        "slots": {
+          "schemaVersion": 1,
+          "nodeType": "SlotsNode",
+          "items": [
+            {
+              "id": "2ac3e175-f7a2-4537-b32e-5bbfa2846463",
+              "sceneNodeType": "item",
+              "name": "Background",
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "37.jpg"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "transition": {
+    "schemaVersion": 1,
+    "nodeType": "TransitionNode",
+    "type": "cut_transition",
+    "settings": {},
+    "duration": 300
+  }
+}
